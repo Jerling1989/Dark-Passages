@@ -1,6 +1,7 @@
 .demo-3 {
+	background-image: url('../img/dark_pattern.png');
+	background-repeat: repeat;
 	--color-text: #454847;
-	--color-bg: #1d2121;
 	--color-link: #454847;
 	--color-link-hover: #fff;
 	--color-info: #454847;
