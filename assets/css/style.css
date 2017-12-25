@@ -1,6 +1,21 @@
+#page-title {
+	text-align: center;
+	color: #830303;
+	font-family: 'Special Elite', cursive;
+	font-size: 64px;
+}
+
+#page-subtitle {
+	text-align: center;
+	color: #d1d1d1;
+	font-family: 'Special Elite', cursive;
+	font-size: 24px;
+}
+
 .demo-3 {
 	background-image: url('../img/dark_pattern.png');
 	background-repeat: repeat;
+	background-attachment: fixed;
 	--color-text: #454847;
 	--color-link: #454847;
 	--color-link-hover: #fff;
