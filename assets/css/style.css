@@ -202,7 +202,7 @@
 	left: calc(-1 * var(--gap-horizontal));
 	width: calc(100% + var(--gap-horizontal) * 2);
 	height: calc(100% + var(--gap-vertical) * 2);
-	background: url(../img/1.jpg) no-repeat 50% 0;
+	background: url(../img/mr_robot.jpg) no-repeat 50% 0;
 	background-color: var(--blend-color-1);
 	background-size: cover;
 	transform: translate3d(0,0,0);
@@ -210,23 +210,23 @@
 }
 
 .glitch--style-2 .glitch__img {
-	background-image: url(../img/2.jpg);
+	background-image: url(../img/nightcrawler.jpg);
 }
 
 .glitch--style-3 .glitch__img {
-	background-image: url(../img/3.jpg);
+	background-image: url(../img/true_detective.png);
 }
 
 .glitch--style-4 .glitch__img {
-	background-image: url(../img/4.jpg);
+	background-image: url(../img/get_out.jpg);
 }
 
 .glitch--style-5 .glitch__img {
-	background-image: url(../img/5.jpg);
+	background-image: url(../img/mindhunter.jpg);
 }
 
 .glitch--style-6 .glitch__img {
-	background-image: url(../img/6.jpg);
+	background-image: url(../img/ex_machina.jpg);
 }
 
 /* Set the background colors for the glitch images*/
