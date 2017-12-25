@@ -12,6 +12,21 @@
 	font-size: 24px;
 }
 
+.show-title {
+	margin-top: 40%;
+}
+
+.movie-title {
+	/*margin-right: 80%;*/
+}
+
+.play-media {
+	color: #d1d1d1;
+	font-family: 'Special Elite', cursive;
+	font-size: 24px;
+}
+
+/* ABOVE IS NEW */
 .demo-3 {
 	background-image: url('../img/dark_pattern.png');
 	background-repeat: repeat;
