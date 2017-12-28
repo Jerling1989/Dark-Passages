@@ -26,6 +26,28 @@
 	font-size: 24px;
 }
 
+
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+
 /* ABOVE IS NEW */
 .demo-3 {
 	background-image: url('../img/dark_pattern.png');
@@ -38,7 +60,7 @@
 	--glitch-width: 40vmax;
 	--glitch-height: calc(40vmax * 1.25);
 	--color-title: #fff;
-	--color-subtitle: #30efbf;
+	--color-subtitle: #830303;
 }
 
 .glitch--style-1 {
@@ -133,6 +155,38 @@
 	--blend-color-1: transparent;
 	--blend-color-2: transparent;
 	--blend-color-3: rgba(255,255,255,0.2);
+	--blend-color-4: transparent;
+	--blend-color-5: transparent;
+}
+
+.glitch--style-7 {
+	--gap-horizontal: 5px;
+	--gap-vertical: 10px;
+	--time-anim: 2s;
+	--blend-mode-1: none;
+	--blend-mode-2: none;
+	--blend-mode-3: luminosity;
+	--blend-mode-4: none;
+	--blend-mode-5: none;
+	--blend-color-1: transparent;
+	--blend-color-2: transparent;
+	--blend-color-3: #4d8c60;
+	--blend-color-4: transparent;
+	--blend-color-5: #c9b09a;
+}
+
+.glitch--style-8 {
+	--gap-horizontal: 20px;
+	--gap-vertical: 2px;
+	--time-anim: 2.25s;
+	--blend-mode-1: none;
+	--blend-mode-2: none;
+	--blend-mode-3: multiply;
+	--blend-mode-4: none;
+	--blend-mode-5: none;
+	--blend-color-1: transparent;
+	--blend-color-2: transparent;
+	--blend-color-3: #af4563;
 	--blend-color-4: transparent;
 	--blend-color-5: transparent;
 }
@@ -244,6 +298,14 @@
 	background-image: url(../img/ex_machina.jpg);
 }
 
+.glitch--style-7 .glitch__img {
+	background-image: url(../img/the_leftovers.jpg);
+}
+
+.glitch--style-8 .glitch__img {
+	background-image: url(../img/blade_runner_2049.jpg);
+}
+
 /* Set the background colors for the glitch images*/
 .glitch__img:nth-child(2) {
 	background-color: var(--blend-color-2);
@@ -263,6 +325,16 @@
 .glitch__img:nth-child(5) {
 	background-color: var(--blend-color-5);
 	background-blend-mode: var(--blend-mode-5);
+}
+
+.glitch__img:nth-child(7) {
+	background-color: var(--blend-color-2);
+	background-blend-mode: var(--blend-mode-2);
+}
+
+.glitch__img:nth-child(8) {
+	background-color: var(--blend-color-3);
+	background-blend-mode: var(--blend-mode-3);
 }
 
 /* Hide all images except the first one */

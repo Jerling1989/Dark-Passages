@@ -18,6 +18,10 @@
 		<link href="https://fonts.googleapis.com/css?family=Barlow:500,800|Special+Elite" rel="stylesheet" />
 		<!-- RESET CSS LINK -->
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+
+		<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 		<!-- BASE CSS LINK -->
 		<link rel="stylesheet" type="text/css" href="assets/css/base.css" />
 		<!-- GLITCH CSS LINK -->
@@ -29,6 +33,7 @@
 	<body class="demo-3 loading">
 
 	<audio src="assets/music/into_the_void.mp3" autoplay>
+
 	<p>If you are reading this, it is because your browser does not support the audio element.     </p>
 	<embed src="/music/good_enough.mp3" width="180" height="90" hidden="true" />
 	</audio>
@@ -56,6 +61,10 @@
 			<div>
 				<h1 id='page-title'>DARK PASSAGES</h1>
 				<p id='page-subtitle'>A Journey Through Some of the Most Somber Viewing Experiences in Modern Television and Cinema</p>
+
+				<button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-target="#myModal">
+  Play Video 1
+</button>
 			</div>
 			<br /> <br />
 
@@ -128,29 +137,61 @@
 				</div>
 
 				<div class="grid__item">
-					<div class="glitch glitch--style-1">
+					<div class="glitch glitch--style-7">
 						<div class="glitch__img"></div>
 						<div class="glitch__img"></div>
 						<div class="glitch__img"></div>
 						<div class="glitch__img"></div>
 						<div class="glitch__img"></div>
 					</div>
-					<h2 class="grid__item-title">Prone <span class="play-media">Play Media</span></h2>
+					<h2 class="grid__item-title"><img class="show-title" src="assets/img/the-leftovers-logo.png"> <span class="play-media">Play Media</span></h2>
 				</div>
 
 				<div class="grid__item">
-					<div class="glitch glitch--style-2">
+					<div class="glitch glitch--style-8">
 						<div class="glitch__img"></div>
 						<div class="glitch__img"></div>
 						<div class="glitch__img"></div>
 						<div class="glitch__img"></div>
 						<div class="glitch__img"></div>
 					</div>
-					<h2 class="grid__item-title">Equal <span class="play-media">Play Media</span></h2>
+					<h2 class="grid__item-title"><img class="movie-title" src="assets/img/blade-runner-2049-logo.png"> <span class="play-media">Play Media</span></h2>
 				</div>
 
 			</div>
+
+			<!-- Modal -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+
+			      
+			      <div class="modal-body">
+
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>        
+			        <!-- 16:9 aspect ratio -->
+			        <div class="embed-responsive embed-responsive-16by9">
+			          <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always">></iframe>
+			        </div>
+			        
+			        
+			      </div>
+
+			    </div>
+			  </div>
+			</div> 
+
 		</main>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+		
+		<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 		<script src="assets/js/imagesloaded.pkgd.min.js"></script>
 		<script src="assets/js/demo.js"></script>
 	</body>
