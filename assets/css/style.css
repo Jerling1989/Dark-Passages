@@ -16,14 +16,24 @@
 	margin-top: 40%;
 }
 
-.movie-title {
-	/*margin-right: 80%;*/
+#media-btn {
+	color: #FFFFFF;
+	font-family: 'Bungee', cursive;
+	font-size: 24px;
+}
+
+#media-btn:hover {
+	color: #830303;
 }
 
 .play-media {
 	color: #d1d1d1;
 	font-family: 'Special Elite', cursive;
 	font-size: 24px;
+}
+
+.button-div {
+	text-align: center;
 }
 
 
