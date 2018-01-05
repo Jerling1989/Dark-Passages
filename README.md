@@ -10,4 +10,5 @@ This is a project I decided to create after seeing a tutorial online on how to m
 - When the user clicks one of the words underneath the images it will load a Modal that will autoplay a scene, clip, or trailer for the Movie or TV Show they are interested in.
 ![Slide Three](assets/img/readme/slide-3.png)
 
+- This last screenshot is just to display the change in color of the words underneath the pictures when a user hovers over them.
 ![Slide Four](assets/img/readme/slide-4.png)
