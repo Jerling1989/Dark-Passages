@@ -20,7 +20,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-/* Fade effect */
+/* FADE EFFECT */
 .js body {
 	opacity: 0;
 	transition: opacity 0.3s;
@@ -30,7 +30,7 @@ body {
 	opacity: 1;
 }
 
-/* Page Loader */
+/* PAGE LOADER */
 .js .loading::before {
 	content: '';
 	position: fixed;
@@ -102,7 +102,7 @@ a:focus {
 	}
 }
 
-/* Icons */
+/* ICONS */
 .icon {
 	display: block;
 	width: 1.5em;
@@ -160,132 +160,3 @@ main {
 	position: relative;
 }
 
-/* Header */
-.codrops-header {
-	position: relative;
-	z-index: 100;
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	align-items: center;
-	align-self: start;
-	grid-area: header;
-	justify-self: start;
-}
-
-.demo-2 .codrops-header {
-	justify-self: stretch;
-}
-
-.codrops-header__title {
-	font-size: 1em;
-	font-weight: bold;
-	margin: 0;
-}
-
-.info {
-	margin: 0 0 0 1.25em;
-	color: var(--color-info);
-}
-
-.github {
-	display: block;
-	align-self: end;
-	grid-area: github;
-	justify-self: start;
-}
-
-.content--top .github {
-	align-self: center;
-	margin: 0 1em 0 auto;
-}
-
-.demos {
-	position: relative;
-	display: block;
-	align-self: end;
-	text-align: right;
-	grid-area: demos;
-}
-
-.content--top .demos {
-	align-self: center;
-}
-
-.demo {
-	margin: 0 0 0 1em;
-}
-
-.demo:hover,
-.demo:focus {
-	opacity: 0.5;
-}
-
-.demo span {
-	white-space: nowrap;
-	pointer-events: none;
-}
-
-a.demo--current {
-	pointer-events: none;
-	color: var(--color-link-hover);
-}
-
-/* Top Navigation Style */
-.codrops-links {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	margin: 0 1em 0 0;
-	text-align: center;
-	white-space: nowrap;
-}
-
-.codrops-icon {
-	display: inline-block;
-	margin: 0.15em;
-	padding: 0.25em;
-}
-
-@media screen and (max-width: 55em) {
-	.message {
-		display: block;
-	}
-	.content {
-		flex-direction: column;
-		height: auto;
-		min-height: 0;
-	}
-	.content--fixed {
-		position: relative;
-		z-index: 1000;
-		display: block;
-		padding: 0.85em;
-	}
-	.codrops-header {
-		flex-direction: column;
-		align-items: center;
-		align-self: center;
-	}
-	.codrops-header__title {
-		font-weight: bold;
-		padding-bottom: 0.25em;
-		text-align: center;
-	}
-	.github {
-		display: block;
-		margin: 1em auto;
-	}
-	.content--top .github {
-	    margin: 1em 0;
-	}
-	.codrops-links {
-		margin: 0;
-	}
-	.demos {
-		text-align: center;
-	}
-	.demo {
-		margin: 0 0.5em;
-	}
-}

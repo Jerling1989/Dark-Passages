@@ -1,3 +1,4 @@
+/* PAGE HEADER */
 #page-title {
 	text-align: center;
 	color: #830303;
@@ -12,10 +13,14 @@
 	font-size: 24px;
 }
 
+
+/* TV SHOW TITLE MARGIN */
 .show-title {
 	margin-top: 40%;
 }
 
+
+/* YOUTUBE LINKS */
 #media-btn {
 	color: #FFFFFF;
 	font-family: 'Bungee', cursive;
@@ -26,6 +31,12 @@
 	color: #830303;
 }
 
+.button-div {
+	text-align: center;
+}
+
+
+/* SHOW & MOVIE SUBTITLES */
 #mr_robot {
 	color: #c13430;
 	font-family: 'Special Elite', cursive;
@@ -74,11 +85,8 @@
 	font-size: 36px;
 }
 
-.button-div {
-	text-align: center;
-}
 
-
+/* VIDEO MODAL STYLES */
 .modal-dialog {
       max-width: 800px;
       margin: 30px auto;
@@ -100,7 +108,8 @@
   opacity:1;
 }
 
-/* ABOVE IS NEW */
+
+/* BASIC PAGE STYLES */
 .demo-3 {
 	background-image: url('../img/dark_pattern.png');
 	background-repeat: repeat;
@@ -115,6 +124,8 @@
 	--color-subtitle: #830303;
 }
 
+
+/* GLITCH ACTIONS */
 .glitch--style-1 {
 	--gap-horizontal: 20px;
 	--gap-vertical: 2px;
@@ -243,6 +254,8 @@
 	--blend-color-5: transparent;
 }
 
+
+/* GRID LAYOUT */
 .grid {
 	margin: 50vh auto 0;
     position: relative;
@@ -302,7 +315,8 @@
 	.grid__item-title, .grid__item:nth-child(odd) .grid__item-title { font-size: 2em; text-align: center; width: 100%; padding: 0; top: 20%; }
 }
 
-/* Glitch styles */
+
+/* GLITCH STYLES */
 .glitch {
 	position: relative;
 	width: var(--glitch-width);
@@ -358,7 +372,8 @@
 	background-image: url(../img/blade_runner_2049.jpg);
 }
 
-/* Set the background colors for the glitch images*/
+
+/* BACKGROUND COLORS FOR GLITCH IMAGES */
 .glitch__img:nth-child(2) {
 	background-color: var(--blend-color-2);
 	background-blend-mode: var(--blend-mode-2);
@@ -389,19 +404,22 @@
 	background-blend-mode: var(--blend-mode-3);
 }
 
-/* Hide all images except the first one */
+
+/* HIDE ALL IMAGES EXCEPT THE FIRST ONE */
 .glitch__img:nth-child(n+2) {
 	opacity: 0;
 }
 
-/* Hovers */
 
-/* On hover we show the 2nd, 3rd, 4th and 5th image*/
+/* HOVERS */
+
+/* ON HOVER SHOW 2ND, 3RD, 4TH, & 5TH IMAGES*/
 .glitch:hover .glitch__img:nth-child(n+2) {
 	opacity: 1;
 }
 
-/* Hover animations for horizontal case */
+
+/* HOVER ANIMATIONS FOR HORIZONTAL CASE */
 .glitch:hover .glitch__img:nth-child(2) {
 	transform: translate3d(var(--gap-horizontal),0,0);
 	animation: glitch-anim-1-horizontal var(--time-anim) infinite linear alternate;
@@ -417,7 +435,8 @@
 	animation: glitch-anim-3-horizontal var(--time-anim) infinite linear alternate;
 }
 
-/* Hover animations for vertical case */
+
+/* HOVER ANIMATIONS FOR VERTICAL CASES */
 .glitch--vertical:hover .glitch__img:nth-child(2) {
 	transform: translate3d(0, var(--gap-vertical), 0);
 	animation: glitch-anim-1-vertical var(--time-anim) infinite linear alternate;
@@ -433,14 +452,16 @@
 	animation: glitch-anim-3-vertical var(--time-anim) infinite linear alternate;
 }
 
-/* Hover flash animation on last image */
+
+/* HOVER FLASH ANIMATION FOR LAST IMAGE */
 .glitch:hover > .glitch__img:nth-child(5) {
 	animation: glitch-anim-flash 0.5s steps(1,end) infinite;
 }
 
-/* Animations */
 
-/* Horizontal */
+/* ANIMATIONS */
+
+/* HORIZONTAL */
 @keyframes glitch-anim-1-horizontal {
 	0% { 
 		-webkit-clip-path: polygon(0 2%, 100% 2%, 100% 5%, 0 5%);
@@ -614,7 +635,8 @@
 	}
 }
 
-/* Vertical */
+
+/* VERTICAL */
 @keyframes glitch-anim-1-vertical {
 	0% { 
 		-webkit-clip-path: polygon(2% 0, 5% 0, 5% 100%, 2% 100%);
@@ -834,7 +856,8 @@
 	}
 }
 
-/* Flash */
+
+/* FLASH */
 @keyframes glitch-anim-flash {
 	0% { 
 		opacity: 0.2; 
